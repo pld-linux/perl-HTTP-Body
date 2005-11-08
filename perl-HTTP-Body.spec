@@ -6,7 +6,7 @@
 %define	pdir	HTTP
 %define	pnam	Body
 Summary:	HTTP::Body - HTTP Body Parser
-#Summary(pl):	
+Summary(pl):	HTTP::Body - parser cia³a odpowiedzi HTTP
 Name:		perl-HTTP-Body
 Version:	0.2
 Release:	1
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	25ea5de97597c2edd64d3bc0509c211b
+URL:		http://search.cpan.org/dist/HTTP-Body/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -27,8 +28,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HTTP Body Parser.
 
-# %description -l pl
-# TODO
+%description -l pl
+Parser cia³a odpowiedzi HTTP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
