@@ -8,19 +8,19 @@
 Summary:	HTTP::Body - HTTP Body Parser
 Summary(pl):	HTTP::Body - parser cia³a odpowiedzi HTTP
 Name:		perl-HTTP-Body
-Version:	0.4
+Version:	0.6
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ccb657f7367429d0fdf029550ae37e7d
+# Source0-md5:	e7f5963abece523dd9be27db3d37aaea
 URL:		http://search.cpan.org/dist/HTTP-Body/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Path-Class
-BuildRequires:	perl-YAML
+BuildRequires:	perl-YAML >= 0.39
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
