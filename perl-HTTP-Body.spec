@@ -6,7 +6,7 @@
 %define	pdir	HTTP
 %define	pnam	Body
 Summary:	HTTP::Body - HTTP Body Parser
-Summary(pl):	HTTP::Body - parser cia≥a odpowiedzi HTTP
+Summary(pl.UTF-8):   HTTP::Body - parser cia≈Ça odpowiedzi HTTP
 Name:		perl-HTTP-Body
 Version:	0.6
 Release:	1
@@ -28,8 +28,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HTTP Body Parser.
 
-%description -l pl
-Parser cia≥a odpowiedzi HTTP.
+%description -l pl.UTF-8
+Parser cia≈Ça odpowiedzi HTTP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
