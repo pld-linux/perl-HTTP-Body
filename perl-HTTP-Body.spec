@@ -6,7 +6,7 @@
 %define	pdir	HTTP
 %define	pnam	Body
 Summary:	HTTP::Body - HTTP Body Parser
-Summary(pl.UTF-8):   HTTP::Body - parser ciała odpowiedzi HTTP
+Summary(pl.UTF-8):	HTTP::Body - parser ciała odpowiedzi HTTP
 Name:		perl-HTTP-Body
 Version:	0.6
 Release:	1
