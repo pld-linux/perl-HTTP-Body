@@ -8,13 +8,13 @@
 Summary:	HTTP::Body - HTTP Body Parser
 Summary(pl.UTF-8):	HTTP::Body - parser ciała odpowiedzi HTTP
 Name:		perl-HTTP-Body
-Version:	1.05
+Version:	1.12
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1379184350749d108de4b0f47610a2b7
+# Source0-md5:	6546d9a91362b06b67264f374f0b2fab
 URL:		http://search.cpan.org/dist/HTTP-Body/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
