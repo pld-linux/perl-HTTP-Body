@@ -7,13 +7,13 @@
 Summary:	HTTP::Body - HTTP Body Parser
 Summary(pl.UTF-8):	HTTP::Body - parser ciała odpowiedzi HTTP
 Name:		perl-HTTP-Body
-Version:	1.22
+Version:	1.23
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	81a38eab683d8750b78ad0d4845ef0d5
+# Source0-md5:	067c2c71d20ed0b364187cdb75b69d40
 URL:		http://search.cpan.org/dist/HTTP-Body/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
